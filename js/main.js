@@ -45,7 +45,7 @@ function ir_a_pagar(monto) {
         alert("Gracias por la propina y vuelva pronto :)");
         return 0;
       } else {
-        seguir_comprando = prompt(`La respueta no es valida
+        seguir_comprando = prompt(`La respuesta no es valida
         Usted pago mas de lo debido, quiere usar ese dinero par comprar algo mas? el monto a su favor es de ${
           pagado - monto
         } S/N`);
@@ -65,7 +65,7 @@ function maquina_snacks() {
   while (true) {
     if (!es_primer_compra) {
       alert(
-        `el monto de ${plata_a_favor} se le restara de su pedido al finalizar la eleccion de producto`
+        `el monto de ${plata_a_favor} se le restará de su pedido al finalizar la elección del producto`
       );
     }
     producto = Number(
